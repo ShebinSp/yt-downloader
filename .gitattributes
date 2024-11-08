@@ -1,0 +1,4 @@
+.build filter=lfs diff=lfs merge=lfs -text
+.dist filter=lfs diff=lfs merge=lfs -text
+.onefile-build filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
